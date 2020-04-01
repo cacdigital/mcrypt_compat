@@ -800,7 +800,7 @@ if (!function_exists('phpseclib_mcrypt_list_algorithms')) {
             case 'rijndael-192':
             case 'rijndael-256':
             case 'twofish':
-                return array(16, 24, 32);
+                return array(13, 16, 24, 32);
             case 'des':
                 return array(8);
             case 'tripledes':
